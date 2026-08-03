@@ -1,7 +1,7 @@
 {
   "name": "DARKZONE-MD",
   "description": "Javascript WhatsApp bot made by 𝐸𝑅𝐹𝒜𝒩 𝒜𝐻𝑀𝒜𝒟",
-  "logo": "https://files.catbox.moe/r2ncqh",
+  "logo": "https://files.catbox.moe/4964gx.jpg",
   "keywords": ["DARKZONE-MD"],
   "success_url": "/",
 
@@ -16,7 +16,7 @@
     "STICKER_NAME": {
       "description": "type your sticker pack name.",
       "required": false,
-      "value": "𝐸𝑅𝐹𝒜𝒩"
+      "value": "DARKZONE-MD"
     }, 
       
     "PREFIX": {
@@ -78,14 +78,14 @@
     "AUTO_STATUS_MSG": {
       "description": "Type custom message on status reply",
       "required": true,
-      "value": "*SEEN YOUR STATUS BY DARKZONE-MD ❤️*"
+      "value": "*SEEN YOUR STATUS BY DARKZONE-MD 🖤*"
    
      }, 
     
     "OWNER_NAME": {
       "description": "Type Bot Owner Name.",
       "required": false,
-      "value": "ERFAN"
+      "value": "𝐸𝑅𝐹𝒜𝒩 𝒜𝐻𝑀𝒜𝒟"
 }, 
 
     "OWNER_NUMBER": {
@@ -106,13 +106,6 @@
       "description": "Make it true if you want bot auto remove group link.",
       "required": true,
       "value": "true"
-      
-    },
-
-     "ANTI_LINK_KICK": {
-      "description": "Make it true if you want bot auto remove group link.",
-      "required": true,
-      "value": "false"
       
     },
     
@@ -137,7 +130,7 @@
      "DESCRIPTION": {
       "description": "add caption for menu and other",
       "required": false,
-      "value": "*CREATER 𝐸𝑅𝐹𝒜𝒩 𝒜𝐻𝑀𝒜𝒟*"
+      "value": "*© CREATER 𝐸𝑅𝐹𝒜𝒩 𝒜𝐻𝑀𝒜𝒟*"
     },
 
       "DELETE_LINKS": {
@@ -183,14 +176,20 @@
       "value": "inbox"
     }, 
 
-    "ADMIN_EVENTS": {
+    "ADMIN_ACTION": {
       "description": "make it true if want know who promote or demote a member .",
       "required": false,
       "value": "false"
     },
 
     "WELCOME": {
-      "description": "make it true if want goodbye and welcome message in groups.",
+      "description": "make it true if want welcome message in groups.",
+      "required": false,
+      "value": "false"
+    },
+
+    "GOODBYE": {
+      "description": "make it true if want goodbye message in groups.",
       "required": false,
       "value": "false"
     },
